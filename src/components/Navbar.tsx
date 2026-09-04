@@ -86,8 +86,6 @@ export const Navbar: React.FC = () => {
           >
             <span>Become A Seller</span>
           </button>
-        </div>
-        <div className="hidden lg:flex items-center gap-3">
           <button
             onClick={handleContactClick}
             className="flex items-center gap-2 px-4 py-2 bg-[#D61F26] hover:bg-[#b8181e] text-white text-xs font-bold rounded-xl transition-all shadow-md shadow-[#D61F26]/20 hover:scale-[1.02]"
