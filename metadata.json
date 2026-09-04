@@ -1,0 +1,6 @@
+{
+  "name": "Metro Transit Logistics",
+  "description": "Modern, premium corporate logistics website featuring fast quote calculator, live tracking lookup, SME partnership programs, and service fleet showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
