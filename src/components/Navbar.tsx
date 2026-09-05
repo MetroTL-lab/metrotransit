@@ -33,7 +33,7 @@ export const Navbar: React.FC = () => {
 
   const handleSellerClick = () => {
     setMobileMenuOpen(false);
-    window.open('https://sellers.metrotransit.com.ng/', '_blank');
+    window.open('https://merchants.metrotransit.com.ng/', '_blank');
   };
 
   return (
@@ -84,7 +84,7 @@ export const Navbar: React.FC = () => {
             onClick={handleSellerClick}
             className="flex items-center gap-2 px-4 py-2 bg-[#D61F26] hover:bg-[#b8181e] text-white text-xs font-bold rounded-xl transition-all shadow-md shadow-[#D61F26]/20 hover:scale-[1.02]"
           >
-            <span>Become A Seller</span>
+            <span>Become A Merchant</span>
           </button>
           <button
             onClick={handleContactClick}
