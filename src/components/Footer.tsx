@@ -28,7 +28,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal }) => {
 
   const handleSellerClick = () => {
     setMobileMenuOpen(false);
-    window.open('https://sellers.metrotransit.com.ng/', '_blank');
+    window.open('https://merchants.metrotransit.com.ng/', '_blank');
   };
 
   const handleScrollToContact = () => {
@@ -141,7 +141,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal }) => {
                 onClick={handleSellerClick}
                 className="w-full py-2.5 bg-[#D61F26] hover:bg-[#b8181e] text-white font-bold text-xs rounded-xl transition-all text-center block shadow-md"
               >
-                Become A Seller
+                Become A Merchant
               </button>
               <button
                 onClick={handleContactClick}
