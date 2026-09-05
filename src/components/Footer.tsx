@@ -26,6 +26,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal }) => {
     window.open('https://riders.metrotransit.com.ng/', '_blank');
   };
 
+  const handleSellerClick = () => {
+    setMobileMenuOpen(false);
+    window.open('https://sellers.metrotransit.com.ng/', '_blank');
+  };
+
   const handleScrollToContact = () => {
     const el = document.getElementById('contact');
     if (el) el.scrollIntoView({ behavior: 'smooth' });
@@ -133,10 +138,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal }) => {
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">Inquire & Reach Us</h4>
             <div className="space-y-2">
               <button
-                onClick={handleScrollToContact}
+                onClick={handleSellerClick}
                 className="w-full py-2.5 bg-[#D61F26] hover:bg-[#b8181e] text-white font-bold text-xs rounded-xl transition-all text-center block shadow-md"
               >
-                Inquire For Rates
+                Become A Seller
               </button>
               <button
                 onClick={handleContactClick}
